@@ -1,0 +1,51 @@
+# Jekyll workshop-template evanwill
+# https://github.com/evanwill/workshop-template
+# based on minima theme https://github.com/jekyll/minima
+
+# Notes: 
+# - pages with "nav: true" in front matter will be in header nav
+# - figure include for centered images, put file in images directory and use: {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+
+# Site settings
+title: workshop-template
+# description and keywords for meta tags
+description: "Create a workshop website quick and easy!"
+keywords: "workshops, websites, gh-pages, jekyll"
+
+# author settings for cc-by
+author: evan will
+pub_year: 2018
+github_username: evanwill
+twitter_username: EvanPeterWill
+
+# add the full url for the github repository
+repo: "https://github.com/evanwill/workshop-template-b"
+
+# site urls
+# add the url for the domain,
+# on gh-pages: https://username.github.io 
+url: https://evanwill.github.io
+# add subsection of the domain,
+# on gh-pages this is the name of the repository
+baseurl: /workshop-template-b
+
+# add search box to top nav
+search: true
+
+# add google analytics if desired (optional)
+# if blank, it will be ignored
+# use JEKYLL_ENV=production on build command
+google_analytics: 
+
+# defaults (to simplify front matter)
+collections:
+  sections:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "sections"
+    values:
+      layout: "default"
+# Build settings
+markdown: kramdown

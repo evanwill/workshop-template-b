@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container border-bottom">
+        <a class="navbar-brand" href="{{ '/' | absolute_url }}"><span class="fas fa-wrench"></span> {{ site.title }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+            <ul class="navbar-nav nav-tabs justify-content-end">
+            {% for section in site.sections %}{% if section.nav == true %}
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == section.url %} active{% endif %}" href="{{ section.url | absolute_url }}">{{ section.title }}</a>
+                </li>
+                {% endif %}{% endfor %}
+            </ul>  
+        </div>
+    </div>
+</nav>

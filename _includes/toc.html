@@ -1,0 +1,10 @@
+<div class="row justify-content-center">
+    <div class="border m-3 col-md-8" >
+        <h2>Contents:</h2>
+        <ul>
+            {% for section in site.sections %}{% if section.nav == true %}
+            <li><a href="{{ section.url | absolute_url }}">{{ section.title }}</a></li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+</div>

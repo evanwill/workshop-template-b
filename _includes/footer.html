@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="container">
+    <nav>
+      <ul class="nav justify-content-end">
+        {% for section in site.sections %}{% if section.nav == true %}
+        <li class="nav-item"><a class="nav-link{% if page.url == section.url %} active{% endif %}" href="{{ section.url | absolute_url }}">{{ section.title }}</a></li>
+        {% endif %}{% endfor %}
+      </ul>
+    </nav>
+    <div class="row mb-3">
+        <div class="col-md">
+          <a class="h4" href="{{ '/' | absolute_url }}"><span class="fas fa-wrench"></span> {{ site.title }}</a>
+          <br>
+          <span class="pl-3"><a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a> {{ site.pub_year }} <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a></span>
+        </div>
+        <div class="col-md">
+          {% if site.search == true %}
+          <script>
+            function site_search() {
+              var query = document.getElementById("site-search").value;
+              window.open("{{ '/search/index.html' | absolute_url }}?q=" + query, "_self" );
+            }
+          </script>
+          <form class="form-inline my-2 my-lg-0 float-right" role="search" id="search" onsubmit="site_search(); return false;">
+            <input id="site-search" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary border my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          {% endif %}
+        </div>
+    </div>
+  </div>
+</footer>

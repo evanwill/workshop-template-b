@@ -1,0 +1,10 @@
+header {
+    border-top: solid 4px $top-border;
+    //border-bottom: solid 1px $top-border;
+    .nav-tabs {
+        border-bottom: none;
+    }
+}
+footer {
+    border-top: solid 1px $top-border;
+}
