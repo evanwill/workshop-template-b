@@ -57,7 +57,7 @@ Using optional google analytics:
 
 ## Demos
 
-My workshop sites using an earlier version of this template (no bootstrap):
+My workshop sites using an [earlier version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
 - [get-git](https://evanwill.github.io/get-git/)
 - [hello-arduino](https://evanwill.github.io/hello-arduino/)

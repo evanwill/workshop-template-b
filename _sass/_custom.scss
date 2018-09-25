@@ -1,3 +1,4 @@
+/* add decorative borders  */
 header {
     border-top: solid 4px $top-border;
     //border-bottom: solid 1px $top-border;
@@ -7,4 +8,17 @@ header {
 }
 footer {
     border-top: solid 1px $top-border;
+}
+/* change container size for easier reading */
+@media (min-width:576px){
+    .container{max-width:540px}
+}
+@media (min-width:768px){
+    .container{max-width:750px}
+}
+@media (min-width:992px){
+    .container{max-width:$container-max}
+}
+@media (min-width:1200px){
+    .container{max-width:$container-max}
 }

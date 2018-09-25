@@ -3,9 +3,9 @@ title: Home
 layout: default
 ---
 
-{% include figure.html file="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" alt="intro image here" width="75%" %}
+# Bootstrap Workshop Template!
 
-# Workshop Template!
+{% include figure.html file="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" alt="intro image here" width="75%" %}
 
 > Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
 
