@@ -10,6 +10,7 @@ footer {
     border-top: solid 1px $top-border;
 }
 /* change container size for easier reading */
+/*
 @media (min-width:576px){
     .container{max-width:540px}
 }
@@ -21,4 +22,15 @@ footer {
 }
 @media (min-width:1200px){
     .container{max-width:$container-max}
+}
+*/
+/* footer styles */ 
+.site-footer {
+    .nav-item a {
+        color: $grey-color;
+        &.active { 
+            color: rgba(0,0,0,.9);
+            text-decoration: underline;
+        }
+    }
 }

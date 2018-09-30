@@ -46,6 +46,10 @@ defaults:
       path: ""
       type: "sections"
     values:
-      layout: "default"
+      layout: "section"
+
+# text column settings 
+text-col-size: 8 
+
 # Build settings
 markdown: kramdown
