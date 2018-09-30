@@ -9,7 +9,7 @@
     </nav>
     <div class="row pb-3">
         <div class="col-md">
-          <a class="h4" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+          <a class="h5" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
           <br>
           <span class="pl-3"><a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a> {{ site.pub_year }} <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a></span>
         </div>
@@ -22,8 +22,12 @@
             }
           </script>
           <form class="form-inline my-2 my-lg-0 float-right" role="search" id="search" onsubmit="site_search(); return false;">
-            <input id="site-search" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search box">
-            <button class="btn btn-secondary border my-2 my-sm-0" type="submit"><span class="fas fa-search"></span><span class="sr-only">submit search</span></button>
+            <div class="input-group">
+              <input id="site-search" class="form-control" type="text" placeholder="Search" aria-label="Search box">
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit"><span class="fas fa-search"></span><span class="sr-only">submit search</span></button>
+              </div>
+            </div>
           </form>
           {% endif %}
         </div>
