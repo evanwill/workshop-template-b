@@ -1,13 +1,19 @@
 /* add decorative borders  */
 header {
     border-top: solid 4px $top-border;
-    //border-bottom: solid 1px $top-border;
     .nav-tabs {
         border-bottom: none;
     }
 }
 footer {
     border-top: solid 1px $top-border;
+    .nav-link { 
+        color: rgba(0,0,0,.5);
+        &.active { 
+            text-decoration: underline;
+            color: rgba(0,0,0,.9);
+        }
+    }
 }
 /* change container size for easier reading */
 @media (min-width:576px){
