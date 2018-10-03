@@ -15,6 +15,13 @@ footer {
         }
     }
 }
+/* change default colors */
+body {
+    color: $text-color;
+}
+a {
+    color: $link-color;
+}
 /* change container size for easier reading */
 @media (min-width:576px){
     .container{max-width:540px}
