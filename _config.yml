@@ -7,7 +7,7 @@
 # - figure include for centered images, put file in images directory and use: {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
 
 # Site settings
-title: workshop-template
+title: workshop-template-b
 # description and keywords for meta tags
 description: "Create a workshop website quick and easy!"
 keywords: "workshops, websites, gh-pages, jekyll"
