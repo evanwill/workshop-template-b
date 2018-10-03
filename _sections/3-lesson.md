@@ -8,18 +8,18 @@ nav: true
 Edit the lesson Markdown files to create content. 
 See [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html).
 
-Lorem ipsum `dolor sit amet`, consectetur adipiscing elit. Pellentesque eu velit felis. 
-Duis *fermentum est nec* mollis scelerisque. 
-Vivamus interdum **efficitur mauris**, et dignissim velit egestas vitae. Cras dignissim sagittis varius.
-Pellentesque eu laoreet dui.
-Praesent congue, eros eget accumsan euismod, lorem dui vulputate leo, tincidunt efficitur risus metus ut risus.
-
-{% include figure.html file="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" alt="workshop scene" caption="Make sure participants are on the same page!" width="75%" %}
-
-> Sed pharetra ipsum orci, eu cursus turpis semper egestas. 
-> Pellentesque sodales, felis auctor auctor rutrum, velit quam interdum erat, sit amet placerat urna nisl at justo.
-
 ## Components Includes
+
+`workshop-template-b` contains a series of [Liquid "includes"](https://jekyllrb.com/docs/includes/) to add basic [Bootstrap components](https://getbootstrap.com/docs/4.1/components/) to your Markdown content.
+Examples below demonstrate the includes.
+
+#### Figures 
+
+`{% raw %}{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}{% endraw %}`
+
+{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}
+
+----------
 
 #### Alerts
 
@@ -45,7 +45,7 @@ Praesent congue, eros eget accumsan euismod, lorem dui vulputate leo, tincidunt 
 2. Use a Liquid capture to create the text.
 3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
 {% endcapture %}
-{% include card.md text=text header="Example Card" title="Title example" img="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" %}{% endraw %}
+{% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}{% endraw %}
 ```
 
 {% capture text %}
@@ -53,7 +53,7 @@ Praesent congue, eros eget accumsan euismod, lorem dui vulputate leo, tincidunt 
 2. Use a Liquid capture to create the text.
 3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
 {% endcapture %}
-{% include card.md text=text header="Example Card" title="Title example" img="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" %}
+{% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}
 
 ------------
 
