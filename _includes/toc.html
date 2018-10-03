@@ -6,8 +6,9 @@
                 <ul>
                     {% for section in site.html_pages %}{% if section.nav == true %}
                     <li><a href="{{ section.url | absolute_url }}">{{ section.title }}</a></li>
-                    {% endif %}{% endfor %}
+                    {% endif %}{%- endfor -%}
                 </ul>
             </div>
+        </div>
     </div>
 </div>

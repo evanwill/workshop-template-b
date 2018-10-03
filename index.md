@@ -7,7 +7,9 @@ layout: default
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
-> Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
+A minimal Jekyll theme with Bootstrap for creating workshop websites.
+
+*Add your workshop abstract here!*
 
 Write a workshop abstract here.
 
@@ -16,5 +18,9 @@ Host it for free on GitHub with gh-pages, and share!
 Fun!
 
 {% include toc.html %}
+
+Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
+
+------
 
 {% include credits.html %}
