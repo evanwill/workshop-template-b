@@ -5,13 +5,13 @@ nav: true
 
 # Workshop Prep
 
-To create your own materials using workshop-template-b, please create a free [GitHub account](https://github.com/join) if you do not have one already.
+To create your own materials using `workshop-template-b`, please create a free [GitHub account](https://github.com/join) if you do not have one already.
 Basic familiarity with the GitHub web interface will be helpful.
 
 For a quick introduction check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and [Try Git](https://try.github.io/).
 
-It is possible to create a website with this template using only GitHub's web interface.
-However, for more advanced uses you will want Git, Ruby, and Jekyll installed on your computer.
+It is possible to create a website with this template using only GitHub's web interface--in fact, it works great!
+However, for more advanced uses you will want Git, Ruby, and Jekyll installed on your computer to do local development.
 
 {% capture text %}
 1. Have a [GitHub](https://github.com) account.
@@ -52,19 +52,15 @@ Jekyll requires a Ruby version > 2.2.5.
 
 ## Install Jekyll
 
-> Note: Jekyll does not officially support Windows, however it is cross platform (they just don’t officially write windows documentation or check for bugs). 
-> There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it can be out of date and inaccurate.
-
 Jekyll is a Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's Pip). 
 Open a terminal and type:
 `gem install jekyll bundler`
 
 This will take a minute as Gem installs all the dependencies and builds extensions. 
 
-> Note: Linux users may need to `sudo`, to avoid this install Ruby using [RVM](http://rvm.io/).
-> On Windows, if `gem` returns an error about secure connections, it may be necessary to update to a newer version of RubyGems as some versions have out of date SSL certificates.
-> Manually install the newer version by downloading the [RubyGems zip package](https://rubygems.org/pages/download#formats).
-> Unzip the package, then run `ruby setup.rb` in the directory.
+{% capture alert %}*Note:* Jekyll does not officially support Windows, however it is cross platform (they just don’t officially write windows documentation or check for bugs).
+There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it can be out of date and inaccurate.{% endcapture %}
+{% include alert.md text=alert color="warning" %}
 
 # Text Editor
 

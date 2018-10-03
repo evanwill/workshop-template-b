@@ -39,7 +39,7 @@ Using figure include:
 - put all images in the `images` directory.
 - figures will be centered, and can optionally be given a caption and percentage width.
 - in a markdown file where you want the image to appear, use the `figure.html` include on its own line.
-- pattern: `{% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}`
+- pattern: `{% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}`
 
 Basic style customization:
 
@@ -54,11 +54,13 @@ Using optional google analytics:
 - analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use `JEKYLL_ENV=production jekyll build`
 
 > Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.3+ and Jekyll 3.5+; most recently used Jekyll 3.7.2.
+> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 3.8.1.
 
 ## Demos
 
-My workshop sites using an [earlier version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
+https://evanwill.github.io/workshop-template-b/
+
+My workshop sites using an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
 - [get-git](https://evanwill.github.io/get-git/)
 - [hello-arduino](https://evanwill.github.io/hello-arduino/)

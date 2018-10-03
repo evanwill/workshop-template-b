@@ -3,15 +3,28 @@ title: Content
 nav: true
 ---
 
-# Part Two: Create Lesson Content
+# Create Lesson Content
 
-Edit the lesson Markdown files to create content. 
-See [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html).
+Edit the lesson Markdown files to create content pages.
+
+[Markdown](https://daringfireball.net/projects/markdown/) is a standard to [simplify writing](https://evanwill.github.io/_drafts/notes/writing-markdown.html) content for the web. 
+[GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
+The basics are intuitive, you can learn in about a minute!
+See [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html) to get started.
+
+When creating content pages:
+
+- create/edit content pages in the `content` directory.
+- to include a page in the nav, add `nav: true` to the file's yml front matter.
+- the `title:` value will appear in the nav, sorted in the order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
+- the default layout does not add `title` to the page, so that it can be a short for the nav. So add a title in the Markdown content.
 
 ## Components Includes
 
 `workshop-template-b` contains a series of [Liquid "includes"](https://jekyllrb.com/docs/includes/) to add basic [Bootstrap components](https://getbootstrap.com/docs/4.1/components/) to your Markdown content.
 Examples below demonstrate the includes.
+
+--------
 
 #### Figures 
 
@@ -23,9 +36,9 @@ Examples below demonstrate the includes.
 
 #### Alerts
 
-`{% raw %}{% include alert.md text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" color="success" %}{% endraw %}`
+`{% raw %}{% include alert.md text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}{% endraw %}`
 
-{% include alert.md text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" color="success" %}
+{% include alert.md text="This is a [Bootstrap Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}
 
 -----------
 
