@@ -5,7 +5,7 @@
 <nav class="border-bottom">
     <div class="container">
     <ul class="nav nav-tabs justify-content-end">
-        {% for section in site.sections %}{% if section.nav == true %}
+        {% for section in site.html_pages %}{% if section.nav == true %}
         <li class="nav-item"><a class="nav-link{% if page.url == section.url %} active{% endif %}" href="{{ section.url | absolute_url }}">{{ section.title }}</a></li>
         {% endif %}{% endfor %}
     </ul>

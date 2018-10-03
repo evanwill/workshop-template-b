@@ -38,13 +38,9 @@ search: true
 google_analytics: 
 
 # defaults (to simplify front matter)
-collections:
-  sections:
-    output: true
 defaults:
   - scope:
-      path: ""
-      type: "sections"
+      path: "content"
     values:
       layout: "default"
 # Build settings

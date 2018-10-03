@@ -1,6 +1,6 @@
-# workshop-template
+# workshop-template-b
 
-A Jekyll template for a simple workshop website, based on a [Bootstrap](https://getbootstrap.com/) theme, designed for hosting on [gh-pages](https://pages.github.com/).
+A Jekyll template for a simple workshop website, with a [Bootstrap](https://getbootstrap.com/) theme, designed for hosting on [gh-pages](https://pages.github.com/).
 
 Works best for about 5 pages of instructions, plus an index page, all written in Markdown. 
 The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the sections.
@@ -18,14 +18,15 @@ It is a better Open Educational Resource since anyone can fork and adapt!
 This repo is the demo skeleton. 
 The [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on gh-pages, and the content pages serve as examples.
 
-To get started:
+Overview:
 
-1. fork or import the repo on GitHub.
-2. clone to your local machine
-3. edit the `_config.yml` with your info.
-4. edit the content pages in markdown (found in the `_sections` folder).
-5. push to GitHub
-6. in your repo's settings, activate gh-pages, using master branch
+1. Fork or import the [repository](https://github.com/evanwill/workshop-template-b) on GitHub.
+2. Clone to your local machine, or work on the GitHub web interface to edit files.
+3. Edit the `_config.yml` with your info.
+4. Edit the content pages in markdown (found in the "content" folder).
+5. Add images to the "images" folder.
+5. Push to GitHub (or commit on the web interface).
+6. In your repo's settings, activate gh-pages, using master branch.
 
 When creating content pages:
 

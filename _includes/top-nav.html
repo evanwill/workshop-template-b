@@ -7,11 +7,11 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav nav-tabs justify-content-end">
-            {% for section in site.sections %}{% if section.nav == true %}
+            {% for section in site.html_pages %}{% if section.nav == true %}
                 <li class="nav-item">
                     <a class="nav-link{% if page.url == section.url %} active{% endif %}" href="{{ section.url | absolute_url }}">{{ section.title }}</a>
                 </li>
-                {% endif %}{% endfor %}
+            {% endif %}{% endfor %}
             </ul>  
         </div>
     </div>

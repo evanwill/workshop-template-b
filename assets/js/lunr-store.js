@@ -2,7 +2,7 @@
 # create lunr store 
 ---
 var store = [ 
-    {% for item in site.sections %} 
+    {% for item in site.html_pages %} 
     { 
         "url": {{ item.url | relative_url | jsonify }},
         "title": {{ item.title | jsonify }},
