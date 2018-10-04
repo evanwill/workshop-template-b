@@ -9,7 +9,7 @@ To learn about using `workshop-template-b`, the [Readme](https://github.com/evan
 
 Other workshop sites an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
-- [get-git](https://uidaholib.github.io/get-git/)
+- [get-git](https://evanwill.github.io/get-git/)
 - [hello-arduino](https://evanwill.github.io/hello-arduino/)
 - [clean-your-data](https://evanwill.github.io/clean-your-data/)
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
@@ -26,8 +26,11 @@ To learn more check out Hellow World on [GitHub Guides](https://guides.github.co
 
 ### Markdown
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a standard to [simplify writing](https://evanwill.github.io/_drafts/notes/writing-markdown.html) content for the web. 
+[Markdown](https://daringfireball.net/projects/markdown/) is a standard to simplify writing content for the web. 
 [GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
+
+- [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html)
+- GitHub Guide [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### Bootstrap 4
 
