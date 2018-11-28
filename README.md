@@ -58,7 +58,8 @@ Using optional google analytics:
 
 ## Demos
 
-https://evanwill.github.io/workshop-template-b/
+- [Demo](https://evanwill.github.io/workshop-template-b/) (this repository)
+- [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
 
 My workshop sites using an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
