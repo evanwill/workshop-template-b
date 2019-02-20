@@ -8,6 +8,10 @@
 # Site settings
 # title appears in the header
 title: workshop-template-b
+# title-icon appears in the header to give some pizazz (leave blank for none)
+# choose from Font Awesome 5 free, https://fontawesome.com/icons?d=gallery&m=free
+# some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open
+title-icon: fas fa-code
 # description and keywords for meta tags
 description: "Create a workshop website quick and easy!"
 keywords: "workshops, websites, gh-pages, jekyll"
