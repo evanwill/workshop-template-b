@@ -30,7 +30,7 @@ Overview:
 
 When creating content pages:
 
-- to include a page in the nav, add `nav: true` to the file's yml front matter.
+- to include a page in the header and footer navigation, add `nav: true` to the file's yml front matter.
 - the `title:` value will appear in the nav, sorted in the order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
 - the default layout does not add `title` to the page, so it can be a short for the nav. Thus, add a title in the Markdown content.
 
@@ -54,7 +54,7 @@ Using optional google analytics:
 - analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use `JEKYLL_ENV=production jekyll build`
 
 > Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 3.8.1.
+> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 3.8.5.
 
 ## Demos
 

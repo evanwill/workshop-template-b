@@ -1,9 +1,6 @@
-# Jekyll workshop-template-b evanwill
+# workshop-template-b, evanwill
 # https://github.com/evanwill/workshop-template-b
-
-# Notes: 
-# - pages with "nav: true" in front matter will be in header nav
-# - figure include for centered images, put file in images directory and use: {% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# A Jekyll template for a simple workshop website
 
 # Site settings
 # title appears in the header
@@ -18,7 +15,7 @@ keywords: "workshops, websites, gh-pages, jekyll"
 
 # author settings for cc-by, appears in the footer
 author: evan will
-pub_year: 2018
+pub_year: 2019
 github_username: evanwill
 
 # add the full url for the github repository
