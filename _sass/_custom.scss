@@ -39,4 +39,4 @@ a {
     .container{max-width:$container-max}
 }
 /* remove margin in alerts */
-.alert p { margin-bottom: 0; }
+.alert p:last-of-type { margin-bottom: 0; }
