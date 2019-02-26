@@ -38,3 +38,5 @@ a {
 @media (min-width:1200px){
     .container{max-width:$container-max}
 }
+/* remove margin in alerts */
+.alert p { margin-bottom: 0; }
