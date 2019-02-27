@@ -6,13 +6,15 @@
 <meta name="keywords" content="{{ site.keywords | escape }}">
 <meta name="author" content="{{ site.author }}">
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
-
+<!-- Open Graph meta -->
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}" />
 <meta property="og:description" content="{{ site.description }}" />
+{% if site.featured-image %}<meta property="og:image" content="{{ page.featured-image | absolute_url }}" />{% endif %}
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:locale" content="en_US" />
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}","author":{"@type":"Person","name":"{{ site.author }}"},"description":"{{ site.description }}","url":"{{ page.url | absolute_url }}"}</script>
+<!-- schema.org JSON-LD -->
+<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}", "author": { "@type":"Person", "name":"{{ site.author }}"}, "description":"{{ site.description }}", {% if site.featured-image %}"image": "{{ site.featured-image | absolute_url }}",{% endif %} "url":"{{ page.url | absolute_url }}" }</script>
 
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | absolute_url }}" type="text/css">
 <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}" >

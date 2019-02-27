@@ -12,6 +12,7 @@ title-icon: fas fa-code
 # description and keywords for meta tags
 description: "Create a workshop website quick and easy!"
 keywords: "workshops, websites, gh-pages, jekyll"
+featured-image: "/images/uidaho-workshop.jpg"
 
 # author settings for cc-by, appears in the footer
 author: evan will
