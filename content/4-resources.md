@@ -7,6 +7,11 @@ nav: true
 
 To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
 
+Workshop sites using this template:
+
+- [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
+- [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
+
 Other workshop sites an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
 - [get-git](https://evanwill.github.io/get-git/)
@@ -20,8 +25,8 @@ Other workshop sites an [minimal version of this template](https://github.com/ev
 ### Git & GitHub
 
 [GitHub](https://github.com/){:target="_blank"} is a popular web service for hosting Git repositories--with benefits!
-It provides a handy web interface for editing and collaborating on repos, as well as, built in project management features and static web hosting.
-Accounts are free for public repositories--private repositories are available on a subscription pricing model.
+It provides a handy web interface for editing and collaborating on repos, as well as, built in project management features and [free static web hosting](https://pages.github.com/){:target="blank"} powered by [Jekyll](https://jekyllrb.com/){:target="blank"}.
+Accounts are free.
 To learn more check out Hellow World on [GitHub Guides](https://guides.github.com/){:target="_blank"} or [GitHub Training](https://services.github.com/on-demand/){:target="_blank"}.
 
 ### Markdown
