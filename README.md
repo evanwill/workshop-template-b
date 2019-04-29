@@ -5,6 +5,8 @@ A Jekyll template for a simple workshop website, with a [Bootstrap](https://getb
 Works best for about 5 pages of instructions, plus an index page, all written in Markdown. 
 The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the sections.
 
+> Note: for a more minimal version, try the original [workshop-template](https://github.com/evanwill/workshop-template)
+
 ## Why?
 
 Rather than making slides for a workshop, why not make a website? 
@@ -60,6 +62,7 @@ Using optional google analytics:
 
 - [Demo](https://evanwill.github.io/workshop-template-b/) (this repository)
 - [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
+- [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
 
 My workshop sites using an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
