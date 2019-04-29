@@ -18,7 +18,7 @@
 <script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}", "author": { "@type":"Person", "name":"{{ site.author }}"}, "description":"{{ site.description }}", {% if site.featured-image %}"image": "{{ site.featured-image | absolute_url }}",{% endif %} "url":"{{ page.url | absolute_url }}" }</script>
 
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | absolute_url }}" type="text/css">
-<link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | absolute_url }}" >
+<link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}" >
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}">
 
 {% include google-analytics.html %}
