@@ -11,6 +11,9 @@ Workshop sites using this template:
 
 - [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
 - [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
+- [Teaching Tech Hands-on](https://evanwill.github.io/tech-hands-on/) (presentation)
+- [Refine APIs](https://evanwill.github.io/refine-apis/) (workshop)
+- [Mini Web Crash Course](https://evanwill.github.io/mini-web-crash-course/) (workshop)
 
 Other workshop sites an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
