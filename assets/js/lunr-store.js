@@ -6,7 +6,7 @@ var store = [
     { 
         "url": {{ item.url | relative_url | jsonify }},
         "title": {{ item.title | jsonify }},
-        "text": {{ item.content | strip_html | jsonify | replace: "\n"," " }}
+        "text": {{ item.content | strip_html | normalize_whitespace | jsonify }}
     }{%- unless forloop.last -%},{%- endunless -%}
     {%- endfor -%}
 ];
