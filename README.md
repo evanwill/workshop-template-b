@@ -22,7 +22,7 @@ The [site](https://evanwill.github.io/workshop-template-b/) demonstrates the out
 
 Overview:
 
-1. Fork or import the [repository](https://github.com/evanwill/workshop-template-b) on GitHub.
+1. Copy the code to your own repository by clicking the green "Use this template" button, or import the [repository](https://github.com/evanwill/workshop-template-b) on GitHub.
 2. Clone to your local machine, or work on the GitHub web interface to edit files.
 3. Edit the `_config.yml` with your info.
 4. Edit the content pages in markdown (found in the "content" folder).
@@ -56,13 +56,14 @@ Using optional google analytics:
 - analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use `JEKYLL_ENV=production jekyll build`
 
 > Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 3.8.5.
+> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 4.0.0.
 
 ## Demos
 
 - [Demo](https://evanwill.github.io/workshop-template-b/) (this repository)
 - [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
 - [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
+- [Web Crash Course](https://evanwill.github.io/web-crash-course/) (workshop)
 
 My workshop sites using an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
@@ -70,4 +71,3 @@ My workshop sites using an [minimal version of this template](https://github.com
 - [hello-arduino](https://evanwill.github.io/hello-arduino/)
 - [clean-your-data](https://evanwill.github.io/clean-your-data/)
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
-- [Make @ the MILL](https://uidaholib.github.io/make-at-the-mill/)
