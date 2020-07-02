@@ -75,3 +75,11 @@ Examples below demonstrate the includes.
 `{% raw %}{% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}{% endraw %}`
 
 {% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}
+
+-------------
+
+#### YouTube embed
+
+`{% raw %}{% include video-embed.html youtubeid="SWVjQsvQocA" caption="Example video" %}{% endraw %}`
+
+{% include video-embed.html youtubeid="SWVjQsvQocA" caption="Example video" %}
