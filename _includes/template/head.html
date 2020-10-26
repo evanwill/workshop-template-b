@@ -21,4 +21,4 @@
 <link rel="stylesheet" href="{{ '/assets/lib/fontawesome-free/css/all.min.css' | relative_url }}" >
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-{% include google-analytics.html %}
+{% if site.google_analytics %}{% include template/google-analytics.html %}{% endif %}

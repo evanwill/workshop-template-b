@@ -25,4 +25,4 @@ Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub
 
 ------
 
-{% include credits.html %}
+{% include template/credits.html %}
