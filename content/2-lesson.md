@@ -9,7 +9,7 @@ The `workshop-template-b` [repository](https://github.com/evanwill/workshop-temp
 This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on gh-pages, and the content pages serve as examples.
 
 {% capture text %}
-1. Fork or import the [repository](https://github.com/evanwill/workshop-template-b) on GitHub.
+1. Click the green "Use this template" button on the [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) to make your own new copy.
 2. Clone to your local machine, or work on the GitHub web interface to edit files.
 3. Edit the `_config.yml` with your info.
 4. Edit the content pages in markdown.
