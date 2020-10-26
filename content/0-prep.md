@@ -18,7 +18,7 @@ However, for more advanced uses you will want Git, Ruby, and Jekyll installed on
 2. Fork or import this [repository](https://github.com/evanwill/workshop-template-b).
 3. Optional: have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
 {% endcapture %}
-{% include card.md text=text header="Setup Overview" %}
+{% include card.html text=text header="Setup Overview" %}
 
 # Local Jekyll Setup [optional]
 
@@ -60,7 +60,7 @@ This will take a minute as Gem installs all the dependencies and builds extensio
 
 {% capture alert %}*Note:* Jekyll does not officially support Windows, however it is cross platform (they just don’t officially write windows documentation or check for bugs).
 There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it can be out of date and inaccurate.{% endcapture %}
-{% include alert.md text=alert color="warning" %}
+{% include alert.html text=alert color="warning" %}
 
 # Text Editor
 

@@ -16,7 +16,7 @@ This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the ou
 5. Add images to the "images" folder.
 5. Push to GitHub (or commit on the web interface).
 6. In your repo's settings, activate gh-pages, using master branch.{% endcapture %}
-{% include card.md header="Overview" text=text %}
+{% include card.html header="Overview" text=text %}
 
 ## Config
 

@@ -18,6 +18,7 @@ footer {
         }
     }
 }
+
 /* change default colors */
 body {
     color: $text-color;
@@ -25,6 +26,7 @@ body {
 a {
     color: $link-color;
 }
+
 /* change container size for easier reading */
 @media (min-width:576px){
     .container{max-width:540px}
@@ -38,5 +40,26 @@ a {
 @media (min-width:1200px){
     .container{max-width:$container-max}
 }
-/* remove margin in alerts */
-.alert p:last-of-type { margin-bottom: 0; }
+
+/* feature include tweaks */
+.feature-alert p:last-of-type { margin-bottom: 0; }
+@media (min-width: 768px) {
+    .feature-w-25 {
+        width: 25%!important;
+    }
+    .feature-w-50 {
+        width: 50%!important;
+    }
+    .feature-w-75 {
+        width: 75%!important;
+    }
+    .feature-w-100 {
+        width: 100%!important;
+    }
+    .feature-float-right {
+        float: right!important;
+    }
+    .feature-float-left {
+        float: left!important;
+    } 
+}

@@ -36,17 +36,17 @@ Examples below demonstrate the includes.
 
 #### Alerts
 
-`{% raw %}{% include alert.md text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}{% endraw %}`
+`{% raw %}{% include alert.html text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}{% endraw %}`
 
-{% include alert.md text="This is a [Bootstrap Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}
+{% include alert.html text="This is a [Bootstrap Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}
 
 -----------
 
 #### Link Buttons 
 
-`{% raw %}{% include button.md text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}{% endraw %}`
+`{% raw %}{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}{% endraw %}`
 
-{% include button.md text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}
+{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}
 
 ---------
 
@@ -58,7 +58,7 @@ Examples below demonstrate the includes.
 2. Use a Liquid capture to create the text.
 3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
 {% endcapture %}
-{% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}{% endraw %}
+{% include card.html text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}{% endraw %}
 ```
 
 {% capture text %}
@@ -66,15 +66,15 @@ Examples below demonstrate the includes.
 2. Use a Liquid capture to create the text.
 3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
 {% endcapture %}
-{% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}
+{% include card.html text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}
 
 ------------
 
 #### Modal
 
-`{% raw %}{% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}{% endraw %}`
+`{% raw %}{% include modal.html button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}{% endraw %}`
 
-{% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}
+{% include modal.html button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}
 
 -------------
 
