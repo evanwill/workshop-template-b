@@ -1,6 +1,10 @@
+#########
+#
 # workshop-template-b, evanwill
 # https://github.com/evanwill/workshop-template-b
 # A Jekyll template for a simple workshop website
+#
+#########
 
 # Site settings
 # title appears in the header
@@ -9,14 +13,14 @@ title: workshop-template-b
 # choose from Font Awesome 5 free, https://fontawesome.com/icons?d=gallery&m=free
 # some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open
 title-icon: fas fa-code
-# description and keywords for meta tags
+# description, keywords, and image for meta tags
 description: "Create a workshop website quick and easy!"
 keywords: "workshops, websites, gh-pages, jekyll"
 featured-image: "/images/uidaho-workshop.jpg"
 
-# author settings for cc-by, appears in the footer
+# author settings for cc-by, appears in the footer and credits
 author: evan will
-pub_year: 2019
+pub_year: 2020
 github_username: evanwill
 
 # add the full url for the github repository
