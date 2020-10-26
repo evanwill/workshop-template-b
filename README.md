@@ -11,7 +11,7 @@ The navigation to the main pages is exposed at top and bottom of each page for e
 
 Rather than making slides for a workshop, why not make a website? 
 It's easier to write, access, share, and reuse. 
-GitHub and gh-pages makes this super easy.
+GitHub and gh-pages makes this pretty easy.
 
 It is a better Open Educational Resource since anyone can fork and adapt!
 
@@ -64,6 +64,7 @@ Using optional google analytics:
 - [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
 - [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
 - [Web Crash Course](https://evanwill.github.io/web-crash-course/) (workshop)
+- [Write MD](https://evanwill.github.io/write-md/) (workshop)
 
 My workshop sites using an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
