@@ -5,11 +5,12 @@
   </head>
 
   <body>
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
     <header>
     {% include template/top-nav.html %}
     </header>
 
-    <main role="main" aria-label="Content">
+    <main id="maincontent" role="main" aria-label="Content">
       <div class="container my-4">
       {{ content }}
       </div>

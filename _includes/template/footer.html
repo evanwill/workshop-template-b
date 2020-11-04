@@ -2,8 +2,8 @@
   <div class="container">
     <nav>
       <ul class="nav justify-content-end">
-        {% for section in site.html_pages %}{% if section.nav == true %}
-        <li class="nav-item"><a class="nav-link{% if page.url == section.url %} active{% endif %}" href="{{ section.url | absolute_url }}">{{ section.title }}</a></li>
+        {% for section in site.html_pages %}{% if section.nav %}
+        <li class="nav-item"><a class="nav-link{% if page.url == section.url %} active{% endif %}" href="{{ section.url | absolute_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a></li>
         {% endif %}{% endfor %}
       </ul>
     </nav>

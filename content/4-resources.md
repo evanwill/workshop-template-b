@@ -27,18 +27,19 @@ Other workshop sites an [minimal version of this template](https://github.com/ev
 
 ### Git & GitHub
 
-[GitHub](https://github.com/){:target="_blank" rel="noopener"} is a popular web service for hosting Git repositories--with benefits!
-It provides a handy web interface for editing and collaborating on repos, as well as, built in project management features and [free static web hosting](https://pages.github.com/){:target="blank"} powered by [Jekyll](https://jekyllrb.com/){:target="blank"}.
+[GitHub](https://github.com/) is a popular web service for hosting Git repositories--with benefits!
+It provides a handy web interface for editing and collaborating on repos, as well as, built in project management features and [free static web hosting](https://pages.github.com/) powered by [Jekyll](https://jekyllrb.com/).
 Accounts are free.
-To learn more check out Hellow World on [GitHub Guides](https://guides.github.com/){:target="_blank" rel="noopener"} or [GitHub Training](https://services.github.com/on-demand/){:target="_blank" rel="noopener"}.
+To learn more check out Hello World on [GitHub Guides](https://guides.github.com/) or [GitHub Learning Lab](https://lab.github.com/).
 
 ### Markdown
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a standard to simplify writing content for the web. 
-[GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
+Markdown can be used any where on GitHub and in Jekyll.
 
+- [Mastering Markdown GitHub Guide](https://guides.github.com/features/mastering-markdown/){:target="_blank" rel="noopener"}
+- [GitHub Markdown documentation](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax){:target="_blank" rel="noopener"}
 - [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html)
-- GitHub Guide [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### Bootstrap 4
 
@@ -59,13 +60,13 @@ Jekyll projects are [configured](https://jekyllrb.com/docs/configuration/) using
 ### Liquid
 
 [Liquid](http://shopify.github.io/liquid/) is a flexible template language.
-[In Jekyll](https://jekyllrb.com/docs/templates/) it allows you to layout pages built from modular components and data, using the `_includes`, `_layouts`, and `_data` directories.
+[In Jekyll]((https://jekyllrb.com/docs/liquid/) it allows you to layout pages built from modular components and data, using the `_includes`, `_layouts`, and `_data` directories.
 Liquid includes features such as operators, loops, and filters to manipulate raw content. 
 Liquid statements are enclosed by {% raw %}`{%  %}`{% endraw %} and variables in {% raw %}`{{  }}`{% endraw %}.
 
 ### Sass  
 
 [Sass](http://sass-lang.com/) is a CSS extension / preprocessor. 
-All normal CSS is valid SCSS, but Sass adds many powerful functions and programatic features. 
+All normal CSS is valid SCSS, but Sass adds many powerful functions and programmatic features. 
 Writing SCSS is often easier and more sensible, for example by supporting nesting, variables, and operators. 
 Jekyll lets you write SASS in modular chucks called partials, in the `_sass` directory, that will be combined and compiled into normal CSS files when the site is built.

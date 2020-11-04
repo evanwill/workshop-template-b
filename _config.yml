@@ -47,6 +47,6 @@ defaults:
   - scope:
       path: "content"
     values:
-      layout: "default"
+      layout: "section"
 # Build settings
 markdown: kramdown
