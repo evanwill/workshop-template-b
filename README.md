@@ -24,17 +24,19 @@ Overview:
 
 1. Copy the code to your own repository by clicking the green "Use this template" button, or import the [repository](https://github.com/evanwill/workshop-template-b) on GitHub.
 2. Clone to your local machine, or work on the GitHub web interface to edit files.
-3. Edit the `_config.yml` with your info.
+3. Edit the `_config.yml` with your info (check the comments for details).
 4. Edit the content pages in markdown (found in the "content" folder).
 5. Add images to the "images" folder.
 5. Push to GitHub (or commit on the web interface).
-6. In your repo's settings, activate gh-pages, using master branch.
+6. In your repo's settings, activate gh-pages, using main/master branch.
 
 When creating content pages:
 
-- to include a page in the header and footer navigation, add `nav: true` to the file's yml front matter.
-- the `title:` value will appear in the nav, sorted in the order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
-- the default layout does not add `title` to the page, so it can be a short for the nav. Thus, add a title in the Markdown content.
+- to include a page in the header and footer navigation, add `nav:` push the text you want to appear to the file's yml front matter. Alternatively, add `nav: true` to use the page's `title:` value. All pages with a `nav` value will appear in the top-bar, sorted by order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
+- `title:` value will appear as `h1` at the top of the page.
+- `topics:` will appear as a small feature below the title (optional). 
+- `description:` will appear as an indented text block below the title (optional). This gives you a chance to summarize the section contents. 
+- if you don't want `title` to appear on the page (or topics and description options), you can over ride the layout to `layout: default` 
 
 Using figure include:
 
@@ -56,7 +58,7 @@ Using optional google analytics:
 - analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use `JEKYLL_ENV=production jekyll build`
 
 > Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 4.0.0.
+> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 4.1.1.
 
 ## Demos
 
