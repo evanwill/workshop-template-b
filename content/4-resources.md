@@ -1,9 +1,7 @@
 ---
-title: Resources
-nav: true
+title: Reference & Resources
+nav: Resources
 ---
-
-# Resources
 
 To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
 

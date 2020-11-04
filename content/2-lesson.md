@@ -1,9 +1,8 @@
 ---
-title: Start
-nav: true
+title: Get Started
+nav: Start
+topics: Template; Config; Lorem ipsum
 ---
-
-# Get Started
 
 The `workshop-template-b` [repository](https://github.com/evanwill/workshop-template-b) is a skeleton project. 
 This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on gh-pages, and the content pages serve as examples.

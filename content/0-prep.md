@@ -1,9 +1,8 @@
 ---
-title: Prep
-nav: true
---- 
-
-# Workshop Prep
+title: Workshop Prep
+nav: Prep
+topics: GitHub; Optional Software
+---
 
 To create your own materials using `workshop-template-b`, please create a free [GitHub account](https://github.com/join) if you do not have one already.
 Basic familiarity with the GitHub web interface will be helpful.
@@ -57,10 +56,6 @@ Open a terminal and type:
 `gem install jekyll bundler`
 
 This will take a minute as Gem installs all the dependencies and builds extensions. 
-
-{% capture alert %}*Note:* Jekyll does not officially support Windows, however it is cross platform (they just don’t officially write windows documentation or check for bugs).
-There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it can be out of date and inaccurate.{% endcapture %}
-{% include alert.html text=alert color="warning" %}
 
 # Text Editor
 

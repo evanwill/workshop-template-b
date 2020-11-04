@@ -1,9 +1,8 @@
 ---
-title: Content
-nav: true
+title: Create Lesson Content
+nav: Content
+topics: Markdown; Includes
 ---
-
-# Create Lesson Content
 
 Edit the lesson Markdown files to create content pages.
 
