@@ -42,6 +42,9 @@ search: true
 # use JEKYLL_ENV=production on build command
 google_analytics: 
 
+# set noindex to true if you do NOT want Google to index your site
+# noindex: true 
+
 # defaults (to simplify front matter)
 defaults:
   - scope:
