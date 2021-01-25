@@ -14,7 +14,7 @@
  |__/|__/\___/_/ /_/\_\/___/_//_/\___/ .__/_/  \__/_/_/_/ .__/_/\_,_/\__/\__/ 
                                     /_/                /_/                    
 
-    workshop-template-b, evanwill, https://github.com/evanwill/workshop-template-b
+    built with workshop-template-b, evanwill, https://github.com/evanwill/workshop-template-b
 --> 
    
 <!-- Open Graph meta -->
@@ -32,4 +32,11 @@
 <link rel="stylesheet" href="{{ '/assets/lib/fontawesome-free/css/all.min.css' | relative_url }}" >
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-{% if site.google_analytics %}{% include template/google-analytics.html %}{% endif %}
+{% comment %} 
+  meta tags and analytics are added during production build ONLY 
+{%- endcomment -%}
+{% if site.noindex == true or page.noindex == true or layout.noindex == true %}<meta name="robots" content="noindex" />{% endif %}
+{% if jekyll.environment == "production" %}
+{% include template/analytics.html %}
+{%- endif -%}
+<!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->
