@@ -28,7 +28,7 @@ Overview:
 4. Edit the content pages in markdown (found in the "content" folder).
 5. Add images to the "images" folder.
 5. Push to GitHub (or commit on the web interface).
-6. In your repo's settings, activate gh-pages, using main/master branch.
+6. In your repo's settings, activate gh-pages, using main branch.
 
 When creating content pages:
 
