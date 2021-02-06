@@ -29,7 +29,7 @@ github_username: evanwill
 # year or date published
 pub_year: 2020
 # location of code, the full url to your github repository
-source-code: https://github.com/thecdil/bootstrap-template
+source-code: https://github.com/evanwill/workshop-template-b
 
 ##########
 # URL VARIABLES [optional!]
