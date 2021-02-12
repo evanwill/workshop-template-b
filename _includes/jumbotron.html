@@ -15,7 +15,7 @@
 
 <style>
 #jumbo-feature {
-    background-image: url({{ include.img | prepend: '/images/' | absolute_url }});
+    background-image: url({{ include.img | prepend: '/images/' | relative_url }});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: {{ include.position | default: 'center' }};
