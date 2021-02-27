@@ -2,9 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
-<meta name="description" content="{{ site.description | escape }}">
-<meta name="keywords" content="{{ site.keywords | escape }}">
-<meta name="author" content="{{ site.author }}">
+<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
+<meta name="keywords" content="{% if page.topics %}{{ page.topics | escape }}{% else %}{{ site.keywords | escape }}{% endif %}">
+<meta name="author" content="{{ site.author | escape }}">
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
 
 <!--
@@ -20,13 +20,13 @@
 <!-- Open Graph meta -->
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}" />
 {% if site.featured-image %}<meta property="og:image" content="{{ site.featured-image | absolute_url }}" />{% endif %}
-<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:site_name" content="{{ site.title | escape }}" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:locale" content="en_US" />
 <!-- schema.org JSON-LD -->
-<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}", "author": { "@type":"Person", "name":"{{ site.author }}"}, "description":"{{ site.description }}", {% if site.featured-image %}"image": "{{ site.featured-image | absolute_url }}",{% endif %} "url":"{{ page.url | absolute_url }}" }</script>
+<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}", "author": { "@type":"Person", "name":"{{ site.author | escape }}"}, "description":"{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}", {% if site.featured-image %}"image": "{{ site.featured-image | absolute_url }}",{% endif %} "url":"{{ page.url | absolute_url }}" }</script>
 
 <link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | relative_url }}" type="text/css">
 <link rel="stylesheet" href="{{ '/assets/lib/fontawesome-free/css/all.min.css' | relative_url }}" >
