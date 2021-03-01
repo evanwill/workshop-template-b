@@ -7,7 +7,7 @@
     - "width" = manually set width using options such as "50%" 
 
 {% endcomment %}
-<figure class="figure text-center p-3">
+<figure class="figure d-block text-center p-3">
     <img src="{{ include.img | prepend: '/images/' | relative_url }}" alt="{{ include.alt }}" {% if include.width %}style="width:{{ include.width }};"{% endif %} class="figure-img img-fluid rounded">
     {% if include.caption %}<figcaption class="figure-caption">{{ include.caption }}</figcaption>{% endif %}
 </figure>
