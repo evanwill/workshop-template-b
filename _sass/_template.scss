@@ -1,3 +1,30 @@
+/* tweak defaults if variables set */
+body {
+    @if variable-exists(base-font-family) { font-family: $base-font-family; }
+    @if variable-exists(base-font-size) { font-size: $base-font-size; }
+    @if variable-exists(text-color) { color: $text-color; }
+    @if variable-exists(code-font-family) { code { font-family: $code-font-family; } }
+}
+@if variable-exists(link-color) {
+    a {
+        color: $link-color;
+        @if variable-exists(text-color) {
+            &:hover {
+                color: $text-color; 
+            }
+        }
+    }
+}
+/* change container size for easier reading */
+@if variable-exists(container-max) {
+    @media (min-width:992px){
+        .container{ max-width: $container-max }
+    }
+    @media (min-width:1200px){
+        .container{ max-width: $container-max }
+    }
+}
+
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
 	padding:6px;
@@ -41,28 +68,6 @@ footer {
             color: rgba(0,0,0,.7);
         }
     }
-}
-
-/* change default colors */
-body {
-    color: $text-color;
-}
-a {
-    color: $link-color;
-}
-
-/* change container size for easier reading */
-@media (min-width:576px){
-    .container{max-width:540px}
-}
-@media (min-width:768px){
-    .container{max-width:750px}
-}
-@media (min-width:992px){
-    .container{max-width:$container-max}
-}
-@media (min-width:1200px){
-    .container{max-width:$container-max}
 }
 
 /* feature include tweaks */
