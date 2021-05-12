@@ -7,7 +7,7 @@
         {% endif %}{% endfor %}
       </ul>
     </nav>
-    <div class="row align-items-center pb-3">
+    <div class="row align-items-center pb-5">
         <div class="col-md">
           <a class="h5" href="{{ '/' | relative_url }}">{{ site.title }}</a>
           <br>
@@ -25,7 +25,7 @@
             <div class="input-group">
               <input id="site-search" class="form-control" type="text" placeholder="Search" aria-label="Search box">
               <div class="input-group-append">
-                <button class="btn btn-secondary" type="submit"><span class="fas fa-search"></span><span class="sr-only">submit search</span></button>
+                <button class="btn btn-secondary" type="submit">{% include icon.html icon="search" %}<span class="sr-only">submit search</span></button>
               </div>
             </div>
           </form>
