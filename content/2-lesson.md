@@ -36,7 +36,8 @@ Additional includes are available in the "_includes" folder, check the comments 
 
 ### Basic style customization
 
-- the `custom.scss` in the `assets/css` folder exposes variables that can customize the basic style of website.
+The file "custom.scss" in the "assets/css/" folder exposes variables that can customize the basic style of website:
+
 - Give a tiny splash of color on the header and footer borders by tweaking the `$top-border` 
 - `$link-color` colors links
 

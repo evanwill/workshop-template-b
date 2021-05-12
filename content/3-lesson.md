@@ -20,7 +20,10 @@ See [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-min
 At the top of each page is "YML front matter" used to configure the page.
 Use these options:
 
-- to include a page in the header and footer navigation, add `nav:` push the text you want to appear to the file's yml front matter. Alternatively, add `nav: true` to use the page's `title:` value. All pages with a `nav` value will appear in the top-bar, sorted by order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
+- `nav:` add the text you want to appear in the the header and footer navigation. 
+    - Alternatively, use `nav: true` to use the page's `title:` value for the nav text. 
+    - Do not include `nav` if you do not want the page to appear in the nav elements.
+    - All pages with a `nav` value will appear in the header and footer navigation, sorted by order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
 - `title:` value will appear as `h1` at the top of the page.
 - `topics:` will appear as a small feature below the title (optional). 
 - `description:` will appear as an indented text block below the title (optional). This gives you a chance to summarize the section contents. 
@@ -29,7 +32,7 @@ Use these options:
 
 ## Components Includes
 
-`workshop-template-b` contains a series of [Liquid "includes"](https://jekyllrb.com/docs/includes/) to add basic [Bootstrap components](https://getbootstrap.com/docs/4.1/components/) to your Markdown content.
+`workshop-template-b` contains a series of [Liquid "includes"](https://jekyllrb.com/docs/includes/) to add basic [Bootstrap v5 components](https://getbootstrap.com/docs/5.0/components/) to your Markdown content.
 Examples below demonstrate the includes.
 
 --------
