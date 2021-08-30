@@ -16,6 +16,7 @@ title: workshop-template-b
 # some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open
 title-icon: fas fa-code
 # description, keywords, and image for meta tags
+# these do not visibility appear on the pages, but used for SEO
 description: "Create a workshop website quick and easy!"
 keywords: "workshops, websites, gh-pages, jekyll"
 featured-image: "/images/uidaho-workshop.jpg"

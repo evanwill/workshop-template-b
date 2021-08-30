@@ -1,7 +1,7 @@
 ---
 title: Create Lesson Content
 nav: Content
-topics: Markdown; Includes
+topics: Examples; Markdown; Includes
 description: >
     This section has example Bootstrap feature includes that can be used to add some interest to your lesson content. Directly below this is an example video embed!
 youtubeid: moJgWrD6dwg
@@ -30,11 +30,17 @@ Use these options:
 ## Components Includes
 
 `workshop-template-b` contains a series of [Liquid "includes"](https://jekyllrb.com/docs/includes/) to add basic [Bootstrap components](https://getbootstrap.com/docs/4.1/components/) to your Markdown content.
-Examples below demonstrate the includes.
+The features are available in the "_includes" folder where you can check the comments for details about how to use them.
+
+The examples below demonstrate some of the includes with sample include `code` followed by the rendered feature:
 
 --------
 
 #### Figures 
+
+- put any images you want to use in the "images" folder.
+- in a markdown file where you want the image to appear, use the `figure.html` include on its own line, following the pattern: `{% raw %}{% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}{% endraw %}`
+- figures will be centered, and can optionally be given a caption and percentage width.
 
 `{% raw %}{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}{% endraw %}`
 

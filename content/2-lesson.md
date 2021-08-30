@@ -8,7 +8,7 @@ The `workshop-template-b` [repository](https://github.com/evanwill/workshop-temp
 This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on GitHub Pages, and the content pages serve as examples.
 
 {% capture text %}
-1. Click the green "Use this template" button on the [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) to make your own new copy of the code.
+1. Click the green "Use this template" button on the [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) to make your own new copy of the code in your account.
 2. Work on the GitHub web interface or clone to your local machine to edit files.
 3. Edit the `_config.yml` with your info.
 4. Edit the content pages in markdown.
@@ -19,20 +19,14 @@ This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the ou
 
 ## Basic Configuration
 
-Edit the `_config.yml` to get your workshop website set up with the basics such as `title` and `author`.
-Check comments in the file for all the options!
+Edit the "_config.yml" to get your workshop website set up with the basics such as `title`, `description`, and `author`.
+Check comments (text behind the `#` sign) in the file for all the options!
 
-Once you have edited the `_config.yml`, you are ready to start editing your content pages.
+Once you have edited the "_config.yml", you are ready to start editing your content pages.
+All your content is written in Markdown in the "content" folder.
+See [Create Lesson Content]({{ '/content/3-lesson.html' | relative_url }}) for details and options.
 
-## Advanced Options [optional]
-
-### Using figure include
-
-- put any images you want to use in the "images" folder.
-- in a markdown file where you want the image to appear, use the `figure.html` include on its own line, following the pattern: `{% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}`
-- figures will be centered, and can optionally be given a caption and percentage width.
-
-Additional includes are available in the "_includes" folder, check the comments for how to use them (or see the next lesson page for demos).
+## Advanced Customization Options (optional!)
 
 ### Basic style customization
 
