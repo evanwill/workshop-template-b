@@ -1,6 +1,6 @@
 {% comment %}
 
-    Bootstrap Card, https://getbootstrap.com/docs/4.5/components/card/
+    Bootstrap Card, https://getbootstrap.com/docs/5.1/components/card/
 
     e.g. --> {% include card.html text="Some interesting text" header="Example card" %}
     
@@ -16,7 +16,7 @@
 {%- endcomment -%}
 <div class="card mb-3{% if include.width %} feature-w-{{ include.width }}{% endif %}{% if include.centered %} mx-auto{% endif %}">
 {% if include.img %}<img class="card-img-top" src="{{ '/images/' | append: include.img | relative_url }}" alt="{{ include.alt | default: 'Card image' }}">{% endif %}
-{% if include.header %}<h5 class="card-header">{{ include.header }}</h5>{% endif %}
+{% if include.header %}<div class="h4 card-header">{{ include.header }}</div>{% endif %}
 <div class="card-body">
 {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
 <div class="card-text">

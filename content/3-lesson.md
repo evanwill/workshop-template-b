@@ -37,7 +37,7 @@ Examples below demonstrate the includes.
 
 --------
 
-#### Figures 
+### Figures 
 
 `{% raw %}{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}{% endraw %}`
 
@@ -45,7 +45,7 @@ Examples below demonstrate the includes.
 
 ----------
 
-#### Alerts
+### Alerts
 
 `{% raw %}{% include alert.html text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}{% endraw %}`
 
@@ -53,15 +53,15 @@ Examples below demonstrate the includes.
 
 -----------
 
-#### Link Buttons 
+### Link Buttons 
 
-`{% raw %}{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}{% endraw %}`
+`{% raw %}{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/5.1/components/buttons/" color="info" %}{% endraw %}`
 
-{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}
+{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/5.1/components/buttons/" color="info" %}
 
 ---------
 
-#### Cards
+### Cards
 
 ```{% raw %}
 {% capture text %}
@@ -81,7 +81,15 @@ Examples below demonstrate the includes.
 
 ------------
 
-#### Modal
+### Accordion
+
+`{% raw %}{% include accordion.html title1="Example section" text1=example1 title2="Section two" text2=example2 title3="Section three" text3=example3 %}{% endraw %}`
+
+{% include accordion.html title1="Section one" text1="Some text content" title2="Section two" text2="Some text content" title3="Section three" text3="Some text content" %}
+
+------------
+
+### Modal
 
 `{% raw %}{% include modal.html button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}{% endraw %}`
 
@@ -89,8 +97,16 @@ Examples below demonstrate the includes.
 
 -------------
 
-#### YouTube embed
+### YouTube embed
 
 `{% raw %}{% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}{% endraw %}`
 
 {% include video-embed.html youtubeid="moJgWrD6dwg" caption="Example video" %}
+
+-------------
+
+### Jumbotron
+
+`{% raw %}{% include jumbotron.html heading="Jumbotron Include" text="Paragraph content goes here." button-text="Learn more" button-color="outline-primary" button-link="https://github.com/evanwill/workshop-template-b" border=true %}{% endraw %}`
+
+{% include jumbotron.html heading="Jumbotron Include" text="Paragraph content goes here." button-text="Learn more" button-color="outline-primary" button-link="https://github.com/evanwill/workshop-template-b" border=true %}
