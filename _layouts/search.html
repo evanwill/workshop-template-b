@@ -4,20 +4,20 @@ foot: template/lunr-js.html
 ---
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary float-end" data-toggle="modal" data-target="#operators">Search Operators!</button>
+<button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">Search Operators!</button>
 <!-- Modal -->
 <div class="modal fade" id="operators" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modalLabel">Lunr Search Operators</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>Specific fields (e.g. title:foo, text:1911)</li>
                     <li>Wildcards (e.g. foo*, *oo)</li>
                     <li>Fuzzy match, helps with misspelling (e.g. foo~1)</li>
+                    <li>Specific fields (e.g. title:foo, text:1911)</li>
                     <li>Boost term (e.g. foo^10)</li>
                 </ul>
             </div>
