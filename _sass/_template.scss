@@ -52,13 +52,14 @@ body {
 a { text-decoration: none; }
 /* add decorative borders  */
 header {
-    border-top: solid 4px $top-border;
+    @if variable-exists(top-border) { border-top: solid 4px $top-border; }
+
     .nav-tabs {
         border-bottom: none;
     }
 }
 footer {
-    border-top: solid 1px $top-border;
+    @if variable-exists(top-border) { border-top: solid 1px $top-border; }
     .nav-link { 
         color: rgba(0,0,0,.5);
         &.active { 
