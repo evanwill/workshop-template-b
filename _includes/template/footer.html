@@ -8,10 +8,10 @@
       </ul>
     </nav>
     <div class="row align-items-center pb-5">
-        <div class="col-md">
+        <div id="footer-title" class="col-md">
           <a class="h5" href="{{ '/' | relative_url }}">{{ site.title }}</a>
           <br>
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a> {{ site.pub_year }} {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a>{% else %}{{ site.author }}{% endif %}
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc by-sa</a> {{ site.pub_year }} {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a>{% else %}{{ site.author }}{% endif %}
         </div>
         <div class="col-md">
           {% if site.search == true %}

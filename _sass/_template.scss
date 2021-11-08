@@ -71,6 +71,9 @@ footer {
         }
     }
 }
+#footer-title {
+    a { color: rgba(0,0,0,.9); }
+}
 
 /* feature include tweaks */
 .feature-alert p:last-of-type { margin-bottom: 0; }
