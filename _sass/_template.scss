@@ -48,7 +48,8 @@ body {
 	-webkit-transition: top .1s ease-in;
     transition: top .1s ease-in;
 }
-
+/* remove link underline */ 
+a { text-decoration: none; }
 /* add decorative borders  */
 header {
     border-top: solid 4px $top-border;
