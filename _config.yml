@@ -17,6 +17,7 @@ title: workshop-template-b
 # some options: code-slash file-code gear tools lightblub book bookmark-star
 title-icon: code-slash
 # description, keywords, and image for meta tags
+# these do not visibility appear on the pages, but used for SEO
 description: "Create a workshop website quick and easy!"
 keywords: "workshops, websites, gh-pages, jekyll"
 # featured-image is added to metadata tags for social media sharing

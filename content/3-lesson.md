@@ -36,7 +36,7 @@ Use these options:
 The includes can be found in the "_includes" folder. 
 Check the comments at the top of each include file for details about options and how to use them.
 
-Examples below demonstrate the includes:
+Examples below demonstrate the includes with sample include `code` followed by the rendered feature:
 
 --------
 
@@ -47,6 +47,10 @@ Examples below demonstrate the includes:
 - figures will be centered, and can optionally be given a caption and percentage width.
 
 Include code: 
+
+- put any images you want to use in the "images" folder.
+- in a markdown file where you want the image to appear, use the `figure.html` include on its own line, following the pattern: `{% raw %}{% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}{% endraw %}`
+- figures will be centered, and can optionally be given a caption and percentage width.
 
 `{% raw %}{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}{% endraw %}`
 

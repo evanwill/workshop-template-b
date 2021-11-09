@@ -24,6 +24,8 @@ Edit the "_config.yml" to get your workshop website set up with the basics such 
 Check comments (denoted by `#` in YAML) in the file for all the options!
 
 Once you have edited the "_config.yml", you are ready to start editing your content pages.
+All your content is written in Markdown in the "content" folder.
+See [Create Lesson Content]({{ '/content/3-lesson.html' | relative_url }}) for details and options.
 
 ## Style customization [optional]
 

@@ -9,7 +9,7 @@
             <ul class="navbar-nav nav-tabs justify-content-end">
             {% for section in site.html_pages %}{% if section.nav %}
                 <li class="nav-item">
-                    <a class="nav-link{% if page.url == section.url %} active{% endif %} p-3" href="{{ section.url | relative_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a>
+                    <a class="nav-link{% if page.url == section.url %} active{% endif %} p-3 h-100" href="{{ section.url | relative_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a>
                 </li>
             {% endif %}{% endfor %}
             </ul>  
