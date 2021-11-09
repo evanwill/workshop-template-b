@@ -3,15 +3,21 @@ title: Reference & Resources
 nav: Resources
 ---
 
-To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
+To learn about using `workshop-template-b`, the content pages of this demo provide documentation and examples (also check the [README](https://github.com/evanwill/workshop-template-b/blob/master/README.md)).
 
 Workshop sites using this template:
 
-- [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
+- [Demo](https://evanwill.github.io/workshop-template-b/) (this repository)
+- [Go Go GitHub Pages (v.2)](https://evanwill.github.io/go-go-ghpages-b/) (workshop)
+- [Get Started with OpenRefine](https://evanwill.github.io/openrefine-b/) (workshop)
+- [Web Crash Course](https://evanwill.github.io/web-crash-course/) (workshop)
+- [write-md: Markdown and Pandoc for Academic Writing](https://evanwill.github.io/write-md/) (workshop)
+- [web-cites: Web Archiving to Fight Link Rot and Preserve Your Citations](https://evanwill.github.io/web-cites/) (workshop)
 - [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
+- [Web Crash Course](https://evanwill.github.io/web-crash-course/) (workshop)
+- [Try Linux!](https://evanwill.github.io/try-linux/) (workshop)
+- [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
 - [Teaching Tech Hands-on](https://evanwill.github.io/tech-hands-on/) (presentation)
-- [Refine APIs](https://evanwill.github.io/refine-apis/) (workshop)
-- [Mini Web Crash Course](https://evanwill.github.io/mini-web-crash-course/) (workshop)
 
 Other workshop sites an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
@@ -20,6 +26,8 @@ Other workshop sites an [minimal version of this template](https://github.com/ev
 - [clean-your-data](https://evanwill.github.io/clean-your-data/)
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
 - [Make @ the MILL](https://uidaholib.github.io/make-at-the-mill/)
+
+If you need a Bootstrap 4 version, see older [v1.0 release](https://github.com/evanwill/workshop-template-b/releases/tag/v1.0). 
 
 # Reference
 

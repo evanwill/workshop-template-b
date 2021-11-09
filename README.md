@@ -102,7 +102,6 @@ To build manually you need to add "JEKYLL_ENV", like: `JEKYLL_ENV=production jek
 - [Demo](https://evanwill.github.io/workshop-template-b/) (this repository)
 - [Go Go GitHub Pages (v.2)](https://evanwill.github.io/go-go-ghpages-b/)
 - [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
-- [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
 - [Web Crash Course](https://evanwill.github.io/web-crash-course/) (workshop)
 - [Write MD](https://evanwill.github.io/write-md/) (workshop)
 
@@ -114,5 +113,5 @@ My workshop sites using an [minimal version of this template](https://github.com
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
 
 > Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 4.2.0.
+> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Ruby 3 and Jekyll 4.2.1.
 > Designed for use with [GitHub Pages automatic build versions](https://pages.github.com/versions/).
