@@ -4,7 +4,7 @@ nav: Start
 topics: Template; Basic Config
 ---
 
-The [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) is a template project --> to get started quickly, make a copy and fill in your own content and customizations.
+The [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) is a template project --> to get started quickly, make a copy and replace the demo with your own content and customizations.
 This [demo site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on GitHub Pages.
 The content pages serve as documentation and examples to copy from.
 
@@ -12,8 +12,8 @@ The content pages serve as documentation and examples to copy from.
 1. Click the green "Use this template" button on the [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) to make your own new copy of the code (make sure you are logged into GitHub!).
 2. Work on the GitHub web interface or clone to your local machine to edit files (tip: click `.` on any GitHub repository to [open the web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)).
 3. Edit the `_config.yml` with your info.
-4. Edit the content pages in markdown.
-5. Add images to the "images" folder.
+4. Edit/add the content pages in Markdown (found in the "content" folder).
+5. Add any images to the "images" folder.
 5. Push to GitHub or commit on the web interface.
 6. In your repository's settings, activate GitHub Pages, using main branch.{% endcapture %}
 {% include card.html header="Overview" text=text %}
