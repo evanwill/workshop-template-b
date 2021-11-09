@@ -32,12 +32,16 @@ Overview:
 
 ### Creating content pages
 
-Content pages are written in markdown and can be enhanced using Liquid includes that are packaged with the template.
+Content pages are written in markdown and can be enhanced using Liquid includes that are packaged with the template (see "_includes/" folder).
 Start by editing the examples or creating new files in the "content" folder.
+
 At the top of each page is "YML front matter" used to configure the page.
 Use these options:
 
-- to include a page in the header and footer navigation, add `nav:` push the text you want to appear to the file's yml front matter. Alternatively, add `nav: true` to use the page's `title:` value. All pages with a `nav` value will appear in the top-bar, sorted by order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
+- `nav:` add the text you want to appear in the the header and footer navigation. 
+    - Alternatively, use `nav: true` to use the page's `title:` value for the nav text. 
+    - Do not include `nav` if you do not want the page to appear in the nav elements.
+    - All pages with a `nav` value will appear in the header and footer navigation, sorted by order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
 - `title:` value will appear as `h1` at the top of the page.
 - `topics:` will appear as a small feature below the title (optional). 
 - `description:` will appear as an indented text block below the title (optional). This gives you a chance to summarize the section contents. 
@@ -47,21 +51,22 @@ Use these options:
 ### Using figure include
 
 - put any images you want to use in the "images" folder.
-- in a markdown file where you want the image to appear, use the `figure.html` include on its own line, following the pattern: `{% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}`
+- in a markdown file where you want the image to appear, use the "figure.html" include on its own line, following the pattern: `{% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}`
 - figures will be centered, and can optionally be given a caption and percentage width.
 
 Additional includes are available in the "_includes" folder, check the comments for how to use them.
 
 ### Basic style customization
 
-- the `custom.scss` in the `assets/css` folder exposes variables that can customize the basic style of website.
+The file "custom.scss" in the "assets/css/" folder exposes variables that can customize the basic style of website:
+
 - Give a tiny splash of color on the header and footer borders by tweaking the `$top-border` 
 - `$link-color` colors links
 
 ### Using optional analytics
 
-- To use Google Analytics, add your analytics id to `_config.yml` in `google-analytics-id:` (if `google-analytics-id` is blank, the GA code will not added)
-- To use an alternative analytics, paste the code snippet provided by the platform into `_includes/template/analytics.html`
+- To use Google Analytics, add your analytics id to "_config.yml" in `google-analytics-id:` (if `google-analytics-id` is blank, the GA code will not added)
+- To use an alternative analytics, paste the code snippet provided by the platform into "_includes/template/analytics.html"
 - analytics code will only be added when using "production" environment. This happens automatically on GitHub Pages. To build manually you need to add "JEKYLL_ENV", like: `JEKYLL_ENV=production jekyll build`
 
 ## Demos
@@ -81,5 +86,5 @@ My workshop sites using an [minimal version of this template](https://github.com
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
 
 > Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 4.1.1.
+> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Jekyll 4.2.0.
 > Designed for use with [GitHub Pages automatic build versions](https://pages.github.com/versions/).

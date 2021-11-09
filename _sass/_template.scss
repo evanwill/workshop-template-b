@@ -1,8 +1,35 @@
+/* tweak defaults if variables set */
+body {
+    @if variable-exists(base-font-family) { font-family: $base-font-family; }
+    @if variable-exists(base-font-size) { font-size: $base-font-size; }
+    @if variable-exists(text-color) { color: $text-color; }
+    @if variable-exists(code-font-family) { code { font-family: $code-font-family; } }
+}
+@if variable-exists(link-color) {
+    a {
+        color: $link-color;
+        @if variable-exists(text-color) {
+            &:hover {
+                color: $text-color; 
+            }
+        }
+    }
+}
+/* change container size for easier reading */
+@if variable-exists(container-max) {
+    @media (min-width:992px){
+        .container{ max-width: $container-max }
+    }
+    @media (min-width:1200px){
+        .container{ max-width: $container-max }
+    }
+}
+
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
 	padding:6px;
 	position: absolute;
-	top:-45px;
+	top:-200px;
 	left:0px;
 	color:white;
 	border-right:1px solid white;
@@ -21,16 +48,18 @@
 	-webkit-transition: top .1s ease-in;
     transition: top .1s ease-in;
 }
-
+/* remove link underline */ 
+a { text-decoration: none; }
 /* add decorative borders  */
 header {
-    border-top: solid 4px $top-border;
+    @if variable-exists(top-border) { border-top: solid 4px $top-border; }
+
     .nav-tabs {
         border-bottom: none;
     }
 }
 footer {
-    border-top: solid 1px $top-border;
+    @if variable-exists(top-border) { border-top: solid 1px $top-border; }
     .nav-link { 
         color: rgba(0,0,0,.5);
         &.active { 
@@ -42,27 +71,8 @@ footer {
         }
     }
 }
-
-/* change default colors */
-body {
-    color: $text-color;
-}
-a {
-    color: $link-color;
-}
-
-/* change container size for easier reading */
-@media (min-width:576px){
-    .container{max-width:540px}
-}
-@media (min-width:768px){
-    .container{max-width:750px}
-}
-@media (min-width:992px){
-    .container{max-width:$container-max}
-}
-@media (min-width:1200px){
-    .container{max-width:$container-max}
+#footer-title {
+    a { color: rgba(0,0,0,.9); }
 }
 
 /* feature include tweaks */
@@ -80,12 +90,6 @@ a {
     .feature-w-100 {
         width: 100%!important;
     }
-    .feature-float-right {
-        float: right!important;
-    }
-    .feature-float-left {
-        float: left!important;
-    } 
 }
 
 /* code blocks */
@@ -113,4 +117,15 @@ div.highlighter-rouge {
     right: 20px; 
     z-index: 99;
     font-size: 40px; 
+}
+
+/* bootstrap icons tweaks */
+.bi { 
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: text-bottom; 
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.1em;
 }

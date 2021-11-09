@@ -12,13 +12,16 @@
 # title appears in the header
 title: workshop-template-b
 # title-icon appears in the header to give some pizazz (leave blank for none)
-# choose from Font Awesome 5 free, https://fontawesome.com/icons?d=gallery&m=free
-# some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open
-title-icon: fas fa-code
+# choose from Bootstrap Icons in _includes/bootstrap-icons
+# find names on https://icons.getbootstrap.com/
+# some options: code-slash file-code gear tools lightblub book bookmark-star
+title-icon: code-slash
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
 description: "Create a workshop website quick and easy!"
 keywords: "workshops, websites, gh-pages, jekyll"
+# featured-image is added to metadata tags for social media sharing
+# use a relative path to image in this repository or full URL
 featured-image: "/images/uidaho-workshop.jpg"
 # add search box to footer? true/false
 search: true
@@ -28,7 +31,7 @@ author: evan will
 # your github username for link [optional]
 github_username: evanwill
 # year or date published
-pub_year: 2020
+pub_year: 2021
 # location of code, the full url to your github repository
 source-code: https://github.com/evanwill/workshop-template-b
 
