@@ -12,9 +12,10 @@
     - "alt" = alt text for image
     - "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100"
     - "centered" = give "true" to add mx-auto class on the card to center it
+    - "extra-class" = any other class you want to add to the card (just be careful!), e.g. "border-info", "h-100"
 
 {%- endcomment -%}
-<div class="card mb-3{% if include.width %} feature-w-{{ include.width }}{% endif %}{% if include.centered %} mx-auto{% endif %}">
+<div class="card mb-3{% if include.width %} feature-w-{{ include.width }}{% endif %}{% if include.centered %} mx-auto{% endif %}{% if include.extra-class %} {{ include.extra-class }}{% endif %}">
 {% if include.img %}<img class="card-img-top" src="{{ '/images/' | append: include.img | relative_url }}" alt="{{ include.alt | default: 'Card image' }}">{% endif %}
 {% if include.header %}<div class="h4 card-header">{{ include.header }}</div>{% endif %}
 <div class="card-body">
