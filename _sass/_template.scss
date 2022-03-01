@@ -61,14 +61,15 @@ header {
 }
 footer {
     @if variable-exists(top-border) { border-top: solid 1px $top-border; }
+    @if variable-exists(nav-pills) { .nav-pills .nav-link.active { background-color: $nav-pills; } }
     .nav-link { 
-        color: rgba(0,0,0,.5);
+        color: rgba(0,0,0,.7);
         &.active { 
-            text-decoration: underline;
             color: rgba(0,0,0,.9);
         }
         &:hover {
-            color: rgba(0,0,0,.7);
+            color: rgba(0,0,0,.8);
+            text-decoration: underline;
         }
     }
 }

@@ -1,9 +1,9 @@
 <footer class="site-footer bg-light mt-auto">
   <div class="container">
-    <nav>
-      <ul class="nav justify-content-end">
+    <nav class="mt-3 mb-4">
+      <ul class="nav nav-pills nav-fill">
         {% for section in site.html_pages %}{% if section.nav %}
-        <li class="nav-item"><a class="nav-link{% if page.url == section.url %} active{% endif %}" href="{{ section.url | relative_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a></li>
+        <li class="nav-item"><a class="nav-link h3{% if page.url == section.url %} active{% endif %}" href="{{ section.url | relative_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a></li>
         {% endif %}{% endfor %}
       </ul>
     </nav>
