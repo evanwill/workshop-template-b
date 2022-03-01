@@ -3,7 +3,7 @@ title: Create Lesson Content
 nav: Content
 topics: Content; Markdown; Includes
 description: >
-    This text is a 'section description'. Directly below this is an example section video embed. This page details how to write content pages and add interest with includes.
+    This text is a "section description". Below is "section topics", followed by an example section video embed. This page details how to write content pages and add interest with includes.
 youtubeid: moJgWrD6dwg
 ---
 
@@ -25,8 +25,8 @@ Use these options:
     - Do not include `nav` if you do not want the page to appear in the nav elements.
     - All pages with a `nav` value will appear in the header and footer navigation, sorted by order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
 - `title:` value will appear as `h1` at the top of the page.
-- `topics:` will appear as a small feature below the title (optional). 
-- `description:` will appear as an indented text block below the title (optional). This gives you a chance to summarize the section contents. 
+- `description:` will appear as an indented text block below the title (optional). This gives you a chance to summarize the section contents.
+- `topics:` will appear as a small feature below the title or description (optional). These also appear in the default TOC.
 - `youtubeid:` will add an YouTube video embed (optional). Find the id in the YouTube link. For example, in `https://youtu.be/moJgWrD6dwg` or `https://www.youtube.com/watch?v=moJgWrD6dwg` the youtubeid is `moJgWrD6dwg`.
 - Alternatively, if you don't want `title` or other options to appear on the page, you can over ride the section layout by adding `layout: default` 
 

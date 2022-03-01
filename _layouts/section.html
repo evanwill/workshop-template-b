@@ -4,10 +4,11 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{% if page.topics %}<div class="ms-3 mb-3 border-bottom">Topics: <strong>{{ page.topics }}</strong></div>{%- endif -%}
-
-{% if page.description %}<div class="ms-3 mb-3 border-bottom">{{ page.description | markdownify }}</div>{%- endif -%}
-
+<div class="ms-5 mb-3 border-bottom">
+    {% if page.description %}<div class="">{{ page.description | markdownify }}</div>{%- endif -%}
+    {% if page.topics %}<div class="">{{ "Topics: <strong>" | append: page.topics | append: "</strong>" | markdownify }}</div>{%- endif -%}
+</div>
+    
 {% if page.youtubeid %}
 <div class="text-center mb-4 border rounded p-2">
     <figure class="mb-0">
