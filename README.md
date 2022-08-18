@@ -85,7 +85,7 @@ The file "assets/css/custom.scss" exposes variables that can customize the basic
 
 To use the Bootstrap defaults for *any* of these values, comment out the variable in "custom.scss", using `//` in front of the option's line (e.g. `// $text-color: #111 !default;` ).
 
-To add your own custom CSS, use the file "_sass/_custom.scss".
+To add your own custom [CSS](https://www.scaler.com/topics/what-is-css/), use the file "_sass/_custom.scss".
 Any CSS/SASS you add to this file will override the template and Bootstrap classes.
 
 ### Add Optional Analytics [optional]
