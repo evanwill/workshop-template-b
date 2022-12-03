@@ -36,9 +36,10 @@ pub_year: 2021
 source-code: https://github.com/evanwill/workshop-template-b
 
 ##########
-# URL VARIABLES [optional!]
+# URL VARIABLES [optional!!]
 #
 # Optional if using GitHub Pages! If building manually, these must be set correctly.
+# When using github pages just leave these blank!
 #
 # use url for the domain, e.g. https://evanwill.github.io
 # on gh-pages follow the pattern: https://username.github.io
