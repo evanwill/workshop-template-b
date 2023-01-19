@@ -30,7 +30,7 @@ Overview:
 3. Edit the `_config.yml` with your info.
 4. Edit/add the content pages in Markdown (found in the "content" folder).
 5. Add any images to the "images" folder.
-5. Push to GitHub or commit on the web interface.
+5. Commit on the web interface or push to GitHub.
 6. In your repository's settings, activate GitHub Pages, using main branch.
 
 ### Basic Configuration
