@@ -57,7 +57,7 @@ Use these options:
 - `topics:` will appear as a small feature below the title (optional). 
 - `description:` will appear as an indented text block below the title (optional). This gives you a chance to summarize the section contents. 
 - `youtubeid:` will add an YouTube video embed (optional). Find the id in the YouTube link. For example, in `https://youtu.be/moJgWrD6dwg` or `https://www.youtube.com/watch?v=moJgWrD6dwg` the youtubeid is `moJgWrD6dwg`.
-- Alternatively, if you don't want `title` or other options to appear on the page, you can over ride the section layout by adding `layout: default` 
+- Alternatively, if you don't want `title` or other options to appear on the page, you can over ride the section layout by adding `layout: page` 
 
 ### Components Includes
 
