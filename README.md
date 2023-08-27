@@ -101,9 +101,11 @@ To build manually you need to add "JEKYLL_ENV", like: `JEKYLL_ENV=production jek
 
 - [Demo](https://evanwill.github.io/workshop-template-b/) (this repository)
 - [Go Go GitHub Pages (v.2)](https://evanwill.github.io/go-go-ghpages-b/)
+- [Get Git!](https://evanwill.github.io/get-git-b/)
+- [Get Started with OpenRefine: Explore, Clean, and Transform your Data!](https://evanwill.github.io/openrefine-b/)
+- [Hello Arduino: Introducing Microcontrollers, Code, and Simple Circuits for Everyone!](https://evanwill.github.io/hello-arduino-b/)
 - [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
 - [Web Crash Course](https://evanwill.github.io/web-crash-course/) (workshop)
-- [Write MD](https://evanwill.github.io/write-md/) (workshop)
 
 My workshop sites using an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
 
@@ -112,6 +114,24 @@ My workshop sites using an [minimal version of this template](https://github.com
 - [clean-your-data](https://evanwill.github.io/clean-your-data/)
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
 
-> Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Ruby 3 and Jekyll 4.2.1.
-> Designed for use with [GitHub Pages automatic build versions](https://pages.github.com/versions/).
+## Template Assets 
+
+This repository does not include a Gemfile because it is a very simple project. 
+It was originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Ruby 3 and Jekyll 4.3.2.
+It is designed for use with [GitHub Pages automatic build versions](https://pages.github.com/versions/).
+
+The template makes use of a variety of open source libraries. 
+These files are included in the 'assets/lib/" folder to ensure the project remains fully self contained.
+These assets include:
+
+- [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/) 
+- [lunr.js](https://lunrjs.com/) 
+- [lazysizes](https://github.com/aFarkas/lazysizes)
+- [spotlight gallery](https://github.com/nextapps-de/spotlight)
+
+## License
+
+workshop-template-b project template is licensed [MIT](https://github.com/evanwill/workshop-template-b/blob/main/LICENSE) by Evan Will.
+The template's content and documentation is licensed [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) by Evan Will.
+The license does not include external dependencies included in the "assets/lib" directory, which are covered by their individual licenses.
