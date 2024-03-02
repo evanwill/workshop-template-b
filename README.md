@@ -7,7 +7,7 @@ The navigation to the main pages is exposed at top and bottom of each page for e
 
 **Please note: the template was updated in Nov 2021 to Bootstrap 5!**
 
-> For a more minimal version, try the original [workshop-template](https://github.com/evanwill/workshop-template)
+> For a more minimal version, try the original [workshop-template](https://github.com/evanwill/workshop-template); For a sidebar toc version, see [lesson-template](https://github.com/learn-static/lesson-template).
 
 ## Why?
 
