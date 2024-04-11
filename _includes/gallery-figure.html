@@ -5,11 +5,12 @@
     - "img" = the filename of the image located in the /images/ folder of your repository, or full url to external image
     - "alt" = description of the image contents for the alt text
     - "caption" = text for caption of the figure (optional)
+    - "title" = text for caption of the image when open in the gallery (optional, by default Spotlight gallery uses the alt text)
     - "width" = manually set width using options such as "50%" (optional)
 
     note: uses Spotlight, https://github.com/nextapps-de/spotlight
 
 {%- endcomment -%}
 <figure class="figure d-block text-center p-3">
-    <a class="spotlight" href="{% if include.img contains '//' %}{{ include.img }}{% else %}{{ include.img | prepend: '/images/' | relative_url }}{% endif %}"><img data-src="{% if include.img contains '//' %}{{ include.img }}{% else %}{{ include.img | prepend: '/images/' | relative_url }}{% endif %}" alt="{{ include.alt }}" {% if include.width %}style="width:{{ include.width }};" {% endif %}class="figure-img img-fluid lazyload"></a>{% if include.caption %}<figcaption class="figure-caption">{{ include.caption }}</figcaption>{%- endif -%}
+    <a class="spotlight" href="{% if include.img contains '//' %}{{ include.img }}{% else %}{{ include.img | prepend: '/images/' | relative_url }}{% endif %}"{% if include.title %} title="{{ include.title | escape }}"{% endif %}><img data-src="{% if include.img contains '//' %}{{ include.img }}{% else %}{{ include.img | prepend: '/images/' | relative_url }}{% endif %}" alt="{{ include.alt | escape }}" {% if include.width %}style="width:{{ include.width }};" {% endif %}class="figure-img img-fluid lazyload"></a>{% if include.caption %}<figcaption class="figure-caption">{{ include.caption }}</figcaption>{%- endif -%}
 </figure>
