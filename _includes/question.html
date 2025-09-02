@@ -1,0 +1,31 @@
+{% comment %}
+
+    Question feature.
+    This include creates a card containing a question text, with an solution hidden until user clicks the "view solution" button.
+
+    e.g. --> {% include question.html header="Example Title" text="A question to figure out?" solution="The answer." %}
+    
+    Options:
+    - "header" = card header text (in bar above card content)
+    - "text" = main card text, can use markdown formatting. Use a Liquid capture to add more complex content.
+    - "solution" = displayed in the collapse
+
+{%- endcomment -%}
+<div class="card my-4">
+    {% if include.header %}<div class="h4 card-header">{{ include.header }}</div>{% endif %}
+    <div class="card-body">
+        <div class="card-text">
+            {{ include.text | markdownify }}
+        </div>
+        {% if include.solution %}
+        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ include.header | default: 'Solution' | slugify }}" aria-expanded="false" aria-controls="collapseExample">
+            View Solution {% include icon.html icon="chevron-down" %}
+        </button>
+        <div class="collapse" id="collapse{{ include.header | default: 'Solution' | slugify }}">
+          <div class="card card-body">
+            {{ include.solution | markdownify }}
+          </div>
+        </div>{% endif %}
+    </div>
+</div>
+
