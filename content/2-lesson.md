@@ -44,8 +44,7 @@ Any CSS/SASS you add to this file will override the template and Bootstrap class
 
 ## Add Optional Analytics [optional]
 
-To use Google Analytics, add your analytics id to "_config.yml" in `google-analytics-id:` (if `google-analytics-id` is blank, the GA code will not added).
-To use an alternative analytics, paste the code snippet provided by the platform into the file "_includes/template/analytics.html".
+To use analytics (such as Google Analytics, Matomo, etc), paste the code snippet provided by the platform into the file "_includes/template/analytics.html".
 
 The analytics code will only be added when using "production" environment. 
 This happens automatically on GitHub Pages. 
